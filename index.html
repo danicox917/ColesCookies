@@ -4,171 +4,155 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <title>Cole's Cookies</title>
 	  <style>
-		  .header {font-family:'EB Garamond', serif;
-			  color: #412E21;
+      h2 {font-family:'EB Garamond', serif;
+			color: #412F21;
+      font-size: 35px;
 		  }
+		  .navthing {font-family:'EB Garamond', serif;
+			  color: #F4F7E7;
+        font-size: 20px;
+		  }
+      nav {background-color: #412F21}
+      a {color: #F4F7E7;
+        }
+      a:hover {color: #C0A665;
+      text-decoration:none;
+        }
+      .mybutton {background-color: #412f21;
+      color:#F4F7E7;
+      font-family: 'EB Garamond', serif;
+      border:none;
+      font-size: 25px;
+      margin: 0px 10px}
+
+      .mybutton:hover {
+        background-color: #C0A665;
+      text-decoration:none;
+      }
+      .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 247, 231, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: none;
+} 
 	  </style>
   </head>
   
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><h3 class="align-content-center" style="color:#F5F4DE; font-family: 'EB Garamond', serif; margin:-8px"><svg width="60px" height="70px" viewBox="0 0 774.000000 695.000000"
- preserveAspectRatio="xMidYMid meet">
-Cole's Cookies</h3></a>
+    <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="#"><div class="align-content-center navthing">
+Cole's Cookies</div></a>
       <!-- MAKE SURE THIS TOGGLE SHIT WORKS-->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon custom-toggler"></span>
   </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
+  <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+    <ul class="navbar-nav navthing">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
 	<li class="nav-item">
-        <a class="nav-link" href="#">Menu</a>
+        <a class="nav-link" href="menu.html">Menu</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
     
     <!-- Top Intro Portion -->
-    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFAB8;
-  width:100%;background-position:center center; background-repeat: no-repeat; background-size:cover; margin-bottom:0px;">
-      <div class="container">
-        <div class="d-flex justify-content-center"><svg width="150px" height="150px" viewBox="0 0 774.000000 695.000000"
- preserveAspectRatio="xMidYMid meet">
-</div>
+    <div style="background-image:url( 'https://scontent-mia3-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/139434158_1169828476768089_801930547085797473_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=mbh0UH-vYK8AX-KpXmO&_nc_ht=scontent-mia3-1.xx&tp=7&oh=110a689bb980576a9bc569176b249f54&oe=60281DD8');background-color: #cccccc;
+  width:100%;background-position:center center; background-repeat: no-repeat;  margin-bottom:0px;">
+      <div class="row justify-content-center">
+        
+
+<div class="row no-gutters justify-content-center" style="margin: 0px"><img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.15752-9/139614121_2123587817781824_4708177727102897328_n.jpg?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=y1YVelxhBeIAX9WRY7F&_nc_ht=scontent-mia3-2.xx&oh=f21a878a77f7225e310af6738c470ee1&oe=602858AB" class="img-fluid" alt="Coles Cookies Logo" style="height: 40vh; margin: 10vh; border-radius: 20%">
       </div>
     </div>
-	    <div class="row">
-	 <h1 class="display-3 d-flex justify-content-center header">Cole's Cookies</h1>
-        <h2 class="lead d-flex justify-content-center header">Small Batch Home Bakery</h2>
-	    </div>
+</div>
     <!-- What we do section -->
-    <div class="row no-gutters justify-content-center" style="padding:30px 0px; background:#525C29;">
-  <div class="col-md-4">
-      <img src="/images/ancient-antique-art-265006.jpg" class="img-fluid" alt="Several highly decorative still life items arranged on a table">
-  </div>
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">What We Do</h5>
-        <p class="card-text">Down from the Attic performs remote research and valuation services. You send in photos, measurements, and other details about your family treasures, and we will tell you about the item's history, let you know how much it's worth, or complete a full USPAP-compliant appraisal report based on your needs. We work completely online, with some limited on-site assessments available on a case by case basis in the Charleston, SC area.</p>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    
-    <!-- Description of Services -->
-    <!-- Antiques Research Card -->
-  <div class="container-fluid" style="background:#B85E44">
-      <div class="row justify-content-start">
-        <div class="col-md-7 align-self-start" style="margin:30px">
-          <div class="card text-center">
-          <img src="/images/antiques-bookcase-books-1222551.jpg" class="card-img-top" alt="A shelf of dusty antique books">
-          <div class="card-body">
-            <h5 class="card-title">Antiques Research</h5>
-            <p class="card-text">So you've stumbled upon something in your grandmother's basement. It looks old, and is definitely an intriguing mystery, not unlike your grandmother. It's a little dusty, sure, but you are itching to know its story. We would love to dig up that history for you. Send us an inquiry to learn more.</p>
+        <div class="row no-gutters justify-content-center" style="padding:5vh 0vh 0vh 0vh; background:#FFFAB8;">
+          <a href="menu.html"><button type="button" class="btn btn-primary mybutton">Menu</button></a>
+          <a href=""><button type="button" class="btn btn-primary mybutton">Order</button></a>
         </div>
-      </div>
-    </div>
-      </div>
-  </div>
-        <!-- Valuation Services Card -->
-  <div class="container-fluid" style="background:#5F7587">
-    <div class="row justify-content-end">
-      <div class="col-md-7 align-self-end" style="margin:30px">
-  <div class="card text-center">
-    <img src="/images/antique-audio-chair-594388.jpg" class="card-img-top" alt="A gramophone on a table in front of some loud wallpaper">
-    <div class="card-body">
-      <h5 class="card-title">Valuation Services</h5>
-      <p class="card-text">We've all seen and loved Antiques Roadshow, and wondered if that weird old knick-knack on your uncle's shelf has more than sentimental value. If you're just feeling curious, let us know and we'll be happy to use our market expertise and research experience to find out how much it's worth. </p>
-    </div>
-  </div>
-      </div>
-    </div>
-  </div>
-        <!-- Full Appraisals Card -->
-  <div class="container-fluid" style="background:#222F1A">
-    <div class="row justify-content-start">
-    <div class="col-md-7 align-self-start" style="margin:30px">
-  <div class="card text-center">
-    <img src="/images/antique-camera-classic-242433.jpg" style="height:auto; width:100%;"class="card-img-top" alt="An antique camera on top of a photo album">
-    
-    <div class="card-body">
-      <h5 class="card-title">Full Appraisal Reports</h5>
-      <p class="card-text">Sometimes you need an appraisal for reasons besides simple curiosity. If you are looking to get an IRS deduction for a charitable donation, purchase insurance, or file an estate tax, we can complete an appraisal report tailored to your needs, with the full competency and knowledge that comes from ISA certification.</p>
-    </div>
-    </div>
-   </div>
-    </div>
- </div>
-  
-  <!-- About Me-->
-  <div class="row no-gutters justify-content-center" style="padding:30px 0px; background:#3D1C1B">
-  <div class="col-md-5">
-    <div class="card">
-      <div class="card-body text-right">
-        <h5 class="card-title">About Us</h5>
-        <p class="card-text">Down From The Attic is operated by Danielle Cox out of Charleston, South Carolina. She started working and volunteering in museums and archives in 2016, including the Waring Historical Library and Macaulay Dental Museum at the Medical University of South Carolina, the Charleston Museum, and the Aiken Rhett House. She presented her research on World War II American Air Raid Wardens at the Colonial Academic Alliance undergraduate research conference in 2016, and in 2017 received the William Moultrie Cup for her work in American history from the Daughters of the American Revolution. She graduated cum laude in history from the College of Charleston in May of 2017. Later she decided to add to her repertoire of research skills, and became a certified personal property appraiser by the International Society of Appraisers in 2019. Down From The Attic was started that same year.</p>
-      </div>
-    </div>
-  </div>
-    <div class="col-md-5">
-      <img src="/images/FB_IMG_1532713808339.jpg" class="img-fluid" alt="A portrait of Danielle Cox">
+    <div class="row no-gutters justify-content-center" style="padding:30px 0px; background:#FFFAB8;">
+<script src="script.js"></script>
+<div class="col">
+<script>
+    (function($){
+        $(window).on('load', function(){
+            $.instagramFeed({
+                'username': 'colescookieschs',
+                'container': "#instagram-feed1",
+                'display_profile': false,
+                'display_biography': false,
+                'display_gallery': true,
+                'display_captions': true,
+                'callback': null,
+                'styling': true,
+                'items': 9,
+                'items_per_row': 3,
+                'margin': 2,
+                'lazy_load': true,
+                'on_error': console.error
+            });
+        });
+    })(jQuery);
+</script>
+<div class="row justify-content-center"><a href="https://www.instagram.com/colescookieschs/"><h2>@colescookieschs</h2></a></div>
+<div style="padding: 0vw 10vw" id="instagram-feed1"></div>
   </div>
 </div>
-    </div>
-      
+ 
+
   <!-- Footer -->
-   <!-- Footer -->
-  <div class="container-fluid navbar-dark bg-dark">
-    <div class="row align-items-center">
-      <div class="col">
-    <p style="font-size:15px; color:#F5F4DE">Copyright 2019 Down From The Attic</p>
+<div class="container-fluid" style="background-color:#412F21">
+    <div class="row">
+      <div class="col align-bottom">
+    <p style="font-size:15px; margin:5px 0px; color: #C0A665; font-family: 'Open-Sans', sans-serif;" >Copyright ©<script>document.write(new Date().getFullYear());</script> Cole's Cookies</p>
       </div>
       <!--ADD SOCIAL MEDIA BUTTONS-->
-      <div class="col justify-content-center">
-        <a href="[full link to your Twitter]">
-	<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+      <div class="col" style="margin:10px 0px">
+        
+	<a target="_blank" href="#">
+	<img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35">
 	</a>
-	<a href="[full link to your Pinterest]">
-	<img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest.png" width="35" height="35" />
-	</a>
-	<a href="[full link to your Facebook page]">
-	<img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
-	</a>
-	<a href="[full link to your LinkedIn]">
-	<img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
-	</a>
-	<a href="[full link to your Instagram]">
-	<img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+	<a target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fcolescookies.daniellecox.repl.co%2F&text=Yum%21%20Check%20out%20these%20sweet%20treats%20from%20Cole%27s%20Cookies%20in%20Charleston%21">
+<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+</a>
+<a target="_blank" href="https://www.instagram.com/colescookieschs/">
+<img title="Instagram" alt="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+</a>
+  <a href="mailto:#">
+	<img title="email" alt="Email" src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/email-icon.png" width="35" height="35">
 	</a>
 	</div>
-      <div class="col-md-2 justify-content-end">
-    <a href="https://www.isa-appraisers.org/find-an-appraiser/profile/11722/danielle-cox"> <img src="https://www.isa-appraisers.org/content/images/cms/isa_logo_member_positive.jpg/isa_logo_member_positive-full;size$350,181.ImageHandler" alt="ISA Member Designation" class="img-fluid" style="max-width:100%; height:auto; padding:8px"></a>
-    </div>
+    
       </div>
   <div class="row">
     <div class="col">
-	<p class="text-muted justify-text-center" style="font-size:10px">I coded this website myself from scratch using Bootstrap, so please be patient with any bugs.</p>
+	<p class="justify-text-center" style="font-size:10px; color:#C0A665; font-family: 'Open-Sans', sans-serif;">This website was made with love, just like the cookies <3</p>
 </div>
     </div>
   </div>
